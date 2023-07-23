@@ -46,7 +46,7 @@ const Support = () => {
                 <div>
                   <h2 className="support-title">Achetez nous les différents objets d'arts qui seront mis en vente.</h2>
                   <p>
-                    Soutenez l'association Urunana. Plusieurs objets d'art seront disponible à la vente
+                    Soutenez l'association Urunana. Plusieurs objets d'art seront disponible à la vente,
                     vos dons vont au maintien des prestations  {' '}
                     <a
                       href="https://urunana.com/index.html"
@@ -80,7 +80,7 @@ const Support = () => {
                   </a>
                   <br/>
                   <a href={listePrixSponsors} title="Télécharger la liste des prix de de sponsoring "  target="_blank">
-                    La liste des Prix de de sponsoring.
+                    La liste des Prix de sponsoring.
                   </a>
 
                 </div>

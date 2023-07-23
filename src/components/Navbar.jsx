@@ -25,8 +25,8 @@ const Navbar = ({ toggle }) => {
                 height="100"
               />
               <div className="logo-text">
-                <span className="nav-word-open">Rev</span>
-                <span className="nav-word-ed">ista</span>
+                <span className="nav-word-open">Urunana </span>
+                <span className="nav-word-ed">- Event</span>
               </div>
             </Link>
 
@@ -74,6 +74,7 @@ export const NavbarStyles = styled.div`
 Navbar
 ===============
 */
+
   .navbar {
     height: 5rem;
     display: flex;
@@ -87,7 +88,7 @@ Navbar
   }
 
   .nav-word-ed {
-    color: #11a3e1;
+    color: rgba(84, 18, 42, 0.78);
   }
 
   .nav-center {
@@ -95,15 +96,18 @@ Navbar
     max-width: 1400px;
     margin: 0 auto;
   }
+
   .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .nav-logo {
     display: block;
     height: 40px;
   }
+
   .nav-logo {
     display: flex;
     align-items: center;
@@ -120,6 +124,7 @@ Navbar
     height: auto;
     width: 43px;
   }
+
   .toggle-btn {
     font-size: 2rem;
     background: transparent;
@@ -128,9 +133,11 @@ Navbar
     cursor: pointer;
     transition: var(--transition);
   }
+
   .toggle-btn:hover {
     color: var(--primary-5);
   }
+
   .nav-links {
     display: none;
   }
@@ -148,6 +155,7 @@ Navbar
     .toggle-btn {
       display: none;
     }
+
     .support-us-link {
       display: flex;
       align-items: center;
@@ -191,6 +199,7 @@ Navbar
     .page-link {
       margin-right: 1rem;
     }
+
     .page-link {
       color: var(--black);
       font-weight: 400;
@@ -202,19 +211,23 @@ Navbar
       padding: 0.25rem 0.5rem;
       border-radius: var(--radius);
     }
+
     .page-link:hover {
       /* background: var(--primary-5); */
       color: var(--primary-8);
     }
+
     .nav-icons {
       display: flex;
       justify-content: space-between;
     }
+
     .nav-icons .social-icon {
       font-size: 1.5rem;
       transition: var(--transition);
       margin-left: 0.5rem;
     }
+
     .nav-icons .social-icon:hover {
       color: var(--primary-5);
       transform: translateY(-5px);

@@ -2,38 +2,35 @@ import React from 'react'
 import SocialLinks from '../constants/socialLinks'
 import styled from 'styled-components'
 import logo from '../assets/logo.png'
+import logoNyon from '../../static/documents/logo-ville-nyon.svg'
 import { Link } from 'gatsby'
 const Footer = () => {
   return (
     <FooterStyles>
       <div className="footer">
-        <Link to="/">
+        <Link to="https://www.nyon.ch/">
           {' '}
           <img
             className="footer-logo"
-            src={logo}
-            alt="Open Mastery Logo"
-            width="100"
-            height="100"
+            src={logoNyon}
+            alt="Ville de Nyon"
+            width="200"
+            height="200"
           />
         </Link>
 
-        <SocialLinks styleClass="footer-icons" />
+        {/*<SocialLinks styleClass="footer-icons" />*/}
         <div className="footer-links">
-          <div>
-            <Link className="footer-link" to="/privacy-policy">
-              Privacy Policy
+         <div>
+            <Link className="footer-link" to="https://www.urunana.com/">
+              Urunana
             </Link>
           </div>
-          <div>
-            <Link className="footer-link" to="/terms-and-conditions">
-              Terms and Conditions
-            </Link>
-          </div>
+
         </div>
 
         <p className="footer-copyright">
-          &copy;2022-{new Date().getFullYear()} Revista. All rights reserved.
+          &copy;Mai-2023-{new Date().getFullYear()}  MAIN PARTNERS.
         </p>
       </div>
     </FooterStyles>
