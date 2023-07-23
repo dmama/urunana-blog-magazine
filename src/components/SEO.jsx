@@ -51,15 +51,15 @@ const SEO = ({ title, description, image, article }) => {
         {`
         {
           "@context": "https://schema.org/",
-          "@type": "Organization",
-          "description: "Free and Revista Resources",
-          "url": "https://revista-gatsby-blog-magazine.one",
-          "homepage": "https://revista-gatsby-blog-magazine.one",
-          "name": "Revista",
-          "email": "mailto:opendotone@gmail.com",
+          "@type": "Association",
+          "description: "Urunana",
+          "url": "https://urunana.com",
+          "homepage": "https://urunana.com",
+          "name": "Urunana",
+          "email": "mailto:mama.denis@gmail.com",
           "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+5-601-785-8543",
+            "telephone": "+41-76-325-0660",
             "contactType": "Customer Support"
           }
         }

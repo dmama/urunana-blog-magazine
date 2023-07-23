@@ -7,7 +7,7 @@ const categories = () => {
   return (
     <Layout>
       <Seo
-        title="Categories | Revista"
+        title="Categories | Urunana"
         description="List of all categories currently on Revista"
       />
       <AllCategories />

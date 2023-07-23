@@ -42,8 +42,8 @@ export default class Index extends React.Component {
           <section className="get-in-touch">
             <h1 className="title">Get in touch</h1>
             <p className="note subtitle">
-              Have a question? We'd love to hear from you. Send us a message and
-              we'll respond as soon as possible.
+              Vous avez une question? Nous aimerions recevoir de vos nouvelles. Envoyez-nous un message et
+              nous vous répondrons dès que possible.
             </p>
             <div className="column  is-two-thirds">
               {this.state.feedbackMsg && <p>{this.state.feedbackMsg}</p>}
@@ -120,14 +120,14 @@ export default class Index extends React.Component {
                 </div>
               </form>
             <p className="note">
-              Powered by{' '}
-              <a
+              Powered by{' Urunana '}
+     {/*         <a
                 className="link"
                 href="https://www.netlify.com/products/forms/"
                 target="_blank"
               >
                 Netlify Forms
-              </a>
+              </a>*/}
               .{' '}
             </p>
             {/* Not necessary, feel free to delete. Especially if not using Static Forms */}
