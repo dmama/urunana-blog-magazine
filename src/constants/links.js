@@ -8,7 +8,7 @@ const Links = ({ styleClass, children }) => {
           Home
         </Link>
       </li>
-      <li>
+{/*      <li>
         <Link to="/about" className="page-link">
           About
         </Link>
@@ -17,7 +17,7 @@ const Links = ({ styleClass, children }) => {
         <Link to="/categories" className="page-link">
           Categories
         </Link>
-      </li>
+      </li>*/}
       <li>
         <Link to="/contact" className="page-link">
           Contact

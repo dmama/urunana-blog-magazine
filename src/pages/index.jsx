@@ -17,15 +17,15 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Seo
-        title={`${metadata.title} | Promoting Free Education for Everyone`}
+        title={`${metadata.title} | Promouvoir la culture Rwandaise`}
         description={metadata.description.substr(0, 160)}
       />
 
       <Hero />
 
-      <Featured />
       <Notification />
-      <RecentPosts posts={posts} />
+        {/*<Featured />*/}
+      {/*<RecentPosts posts={posts} />*/}
     </Layout>
   )
 }

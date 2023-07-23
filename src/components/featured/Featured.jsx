@@ -4,15 +4,26 @@ import Top from './Top'
 import Trending from './Trending'
 import Popular from './Popular'
 import './features-styles.scss'
+import {StaticImage} from "gatsby-plugin-image";
 
 const Featured = () => {
   return (
     <FeaturedStyles>
       <div className="featured-section container">
         <div className="row">
-          <Top />
+{/*          <Top />
           <Trending />
-          <Popular />
+          <Popular />*/}
+            <StaticImage
+                class="support-heart"
+                src="../assets/heart.png"
+                alt="Open Source Illustration"
+                layout="constrained"
+                placeholder="blurred"
+                width='19'
+                height='19'
+            />
+
         </div>
       </div>
     </FeaturedStyles>

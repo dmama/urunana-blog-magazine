@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
                 height='19'
               />
             {/* <img src={Heart} alt="" class="support-heart" /> */}
-            Support Us
+            Soutenez-nous
           </Link>
         </div>
       </nav>

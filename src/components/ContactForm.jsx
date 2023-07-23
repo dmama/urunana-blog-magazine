@@ -40,7 +40,7 @@ export default class Index extends React.Component {
       <Wrapper>
         <div>
           <section className="get-in-touch">
-            <h1 className="title">Get in touch</h1>
+            <h1 className="title">RESTONS EN CONTACT</h1>
             <p className="note subtitle">
               Vous avez une question? Nous aimerions recevoir de vos nouvelles. Envoyez-nous un message et
               nous vous répondrons dès que possible.

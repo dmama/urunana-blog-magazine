@@ -24,12 +24,15 @@ const Hero = () => {
       <div className="hero">
         <div className="row">
           <div className="col-lg-7 col-12 hero-text">
-            <h4>Learning Paths and Curated Lists</h4>
+            <h4>Urunana fête ses 35 ans</h4>
             <h1>
-              <span>Free/Open</span>
-              <br /> Education Resources
+              <span>Le 23-09-2023 / Dès 18h00</span>
+              <span>salle communale de Nyon</span>
+              <span>Rue des marchandises 4, 1260 Nyon</span>
+
             </h1>
-            <p>What are you interested in learning?</p>
+            <p>Danses et tambours du Rwanda, Entrée Frs.30-, Repas Frs. 25-</p>
+            <p>Plus de 60 artistes enfants et adultes, chanteurs danseurs et tambourinaires en costumes</p>
           </div>
           <div className="col-lg-5 col-12">
             <div className="hero-categories">
@@ -120,13 +123,14 @@ export const HeroStyles = styled.header`
   .hero h1 span {
     display: inline-block;
     position: relative;
-    font-size: 110%;
+    font-size: 50%;
   }
 
   .hero h1 span::after {
     position: absolute;
     content: '';
-    background-color: #ace7ff;
+    //background-color: #ace7ff;
+    background-color: rgba(176, 73, 111, 0.59);
     width: 100%;
     height: 15px;
     left: 0;
