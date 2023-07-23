@@ -5,120 +5,62 @@ import styled from 'styled-components'
 import Bmc from '../assets/bmc-logo-no-background.png'
 import Github from '../assets/github.png'
 import SocialMedia from '../assets/social-media.png'
+import BulletinSouscription from '../../static/documents/souscription-bulletin.pdf'
+import listePrixSponsors from '../../static/documents/Liste-prix-2023-sponsors.pdf'
 
 const Support = () => {
   return (
     <Layout>
       <Wrapper>
         <Seo
-          title="Support Us | Revista"
-          description="There are several ways you can support Revista"
+          title="Soutenez-nous | Urunana"
+          description="Il existe plusieurs façons de soutenir Urunana"
         />
         <div className="container support-container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="section-title categories-title">Support Us</h1>
+              <h1 className="section-title categories-title">Soutenez-nous</h1>
           
               <p>
-                We are also an{' '}
-                <a
-                  href="https://github.com/chrisnmorrison/revista-gatsby-blog-magazine"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  open-source blog template
-                </a>
-                , and if you're interested in an out-of-the-box Markdown
-                blog/magazine starter, fork our repo and modify to fit your
-                uses!
+                Assurer aux jeunes une connaissance de leur culture d’origine par la sauvegarde
+                de la langue, de la danse et des tambours.
+                Promouvoir les multiples facettes de la culture rwandaise à travers l’Europe.
+                Nous faire connaître et reconnaître dans nos milieux de vie avec nos sensibilités
+                et notre culture.
+
+                Venir en aide à tout jeune, toute personne ou toute famille par l’écoute, le dialogue
+                et le respect constant de leur personnalité.
               </p>
-              <p>There are a few ways you can support us:</p>
+              <p>Vous pouvez nous soutenir de plusieurs manières:</p>
 
               {/* Item */}
               <div className="support-item">
                 <div>
-                  <a
-                    className="support-link"
-                    href="https://www.buymeacoffee.com/chrismorrison"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
                     <img
                       src={Bmc}
                       alt="buy me a coffee logo"
                       className="support-img"
                     />
-                  </a>
+
                 </div>
                 <div>
-                  <h2 className="support-title">Buy Me a Coffee</h2>
+                  <h2 className="support-title">Achetez nous les différents objets d'arts qui seront mis en vente.</h2>
                   <p>
-                    Support Revista's founder and primary maintainer. Part of
-                    your donations go to maintaining Revista, as well as the
-                    other education promoting services that Chris created, like{' '}
+                    Soutenez l'association Urunana. Plusieurs objets d'art seront disponible à la vente
+                    vos dons vont au maintien des prestations  {' '}
                     <a
-                      href="https://openmastery.one"
+                      href="https://urunana.com/index.html"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Open Mastery
+                      Urunana
                     </a>
                     .
                   </p>
-                  <a
-                    className="support-link"
-                    href="https://www.buymeacoffee.com/chrismorrison"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Buy Me a Coffee
-                  </a>
+
                 </div>
               </div>
-              {/* Item */}
-              <div className="support-item">
-                <div>
-                  <a
-                    className="support-link"
-                    href="https://github.com/chrisnmorrison/revista-gatsby-blog-magazine/blob/main/CONTRIBUTING.md"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src={Github}
-                      alt="github logo"
-                      className="support-img"
-                    />
-                  </a>
-                </div>
-                <div>
-                  <h2 className="support-title">Improve & Enhance our Code</h2>
-                  <p>
-                    Revista is an open-source blog/magazine template, and is
-                    ready for you to add your articles! If you'd like to help us
-                    improve, feel free to open an issue, or check out the
-                    currently open issues on Github. We use Markdown, GraphQL,
-                    Gatsby, and React, so if you know any of those, it's easy to
-                    contribute!
-                  </p>
-                  <p>
-                    Don't forget to{' '}
-                    <a href="https://github.com/chrisnmorrison/revista-gatsby-blog-magazine">
-                      star me on Github
-                    </a>
-                    !
-                  </p>
-                  <a
-                    className="support-link"
-                    href="https://github.com/chrisnmorrison/revista-gatsby-blog-magazine/blob/main/CONTRIBUTING.md"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Find out how to contribute
-                  </a>
-                </div>
-              </div>
-              {/* Item */}
+
               <div className="support-item">
                 <div>
                   <img
@@ -128,19 +70,26 @@ const Support = () => {
                   />
                 </div>
                 <div>
-                  <h2 className="support-title">Share us with the world</h2>
+                  <h2 className="support-title">Demandes de sponsoring</h2>
                   <p>
-                    Who doesn't like free stuff? If you like our work, share
-                    our articles with your friends, family, on Reddit, or
-                    anywhere else. This is the easiest way to support us!
+                    Venez nous soutenir durablement par votre contribution financière
                   </p>
+
+                  <a href={BulletinSouscription} title="Télécharger le bulletin de souscription"  target="_blank">
+                    Bulletin de souscription.
+                  </a>
+                  <br/>
+                  <a href={listePrixSponsors} title="Télécharger la liste des prix de de sponsoring "  target="_blank">
+                    La liste des Prix de de sponsoring.
+                  </a>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="blockquote-wrapper">
+        {/*<div className="blockquote-wrapper">
           <div className="blockquote">
             <h3>
               Revista will remain free forever. Thank you to all of our
@@ -168,7 +117,7 @@ const Support = () => {
               </em>
             </h4>
           </div>
-        </div>
+        </div>*/}
       </Wrapper>{' '}
     </Layout>
   )

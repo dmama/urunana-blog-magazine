@@ -4,15 +4,15 @@
 
 export const categories = [
   { category: 'Art', color: '#ffb8b0' },
-  { category: 'Business', color: '#fdffba' },
-  { category: 'Creativity', color: '#b7ffff' },
-  { category: 'Health', color: '#ffd6c5' },
-  { category: 'History', color: '#ffffca' },
-  { category: 'Philosophy', color: '#ffcdf8' },
-  { category: 'Psychology', color: '#ceebff' },
-  { category: 'Science', color: '#ffc7d6' },
-  { category: 'Technology', color: '#c4ffd4' },
-  { category: 'All Categories', color: '#c9c4ff' },
+  { category: 'Programme', color: '#fdffba' },
+  { category: 'Menu du repas', color: '#b7ffff' },
+  { category: 'Bar', color: '#ffd6c5' },
+   { category: 'Mode Paiement', color: '#ffffca' },
+  // { category: 'Philosophy', color: '#ffcdf8' },
+  // { category: 'Psychology', color: '#ceebff' },
+  // { category: 'Science', color: '#ffc7d6' },
+  // { category: 'Technology', color: '#c4ffd4' },
+  // { category: 'All Categories', color: '#c9c4ff' },
 ]
 
 
