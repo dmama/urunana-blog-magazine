@@ -10,7 +10,7 @@ require('dotenv').config({
 })
 
 module.exports = {
-  pathPrefix: `/`,
+  pathPrefix: `/events`,
   siteMetadata: {
     title: 'Urunana Events',
     titleTemplate: '',

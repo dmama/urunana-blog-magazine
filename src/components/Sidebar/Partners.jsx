@@ -5,12 +5,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Title from './Title'
 import SidebarCard from './SidebarCard'
 import './sidebar-styles.scss'
-import LogoNyon from './../../../static/documents/logo-ville-nyon.svg'
+import LogoNyon from '../../../static/documents/logo-ville-nyon.svg'
 
 const partners = [
   {
     name: 'Ville de Nyon',
-    logo: './../../../static/documents/logo-ville-nyon.svg',
+    logo: '../../../static/documents/logo-ville-nyon.svg',
     logoAlt: 'Bienvenue a la ville de Nyon',
     url: 'https://www.nyon.ch/',
   },
@@ -33,8 +33,7 @@ const Recent = () => {
           return (
             <div key={partner.name} className="partner">
               <StaticImage
-                 src="./../../../static/documents/logo-ville-nyon.svg"
-                //src={partner.logo}
+                src='../../../static/documents/logo-ville-nyon.svg'
                 layout="constrained"
                 width={50}
                 alt="author"
@@ -69,7 +68,7 @@ const Wrapper = styled.div`
 
   .partner-img {
     overflow: visible;
-    width: 35px;
+    width: 50px;
     height: auto;
   }
 
@@ -82,7 +81,7 @@ const Wrapper = styled.div`
 
   @media screen and (max-width: 1085px) {
     .partner-name {
-     font-size: 14px;
+     font-size: 12px;
     }
   }
 

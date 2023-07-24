@@ -1,8 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Top from './Top'
-import Trending from './Trending'
-import Popular from './Popular'
 import './features-styles.scss'
 import {StaticImage} from "gatsby-plugin-image";
 

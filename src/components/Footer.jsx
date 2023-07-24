@@ -4,26 +4,26 @@ import styled from 'styled-components'
 import logo from '../assets/logo.png'
 import logoNyon from '../../static/documents/logo-ville-nyon.svg'
 import { Link } from 'gatsby'
+import {StaticImage} from "gatsby-plugin-image";
 const Footer = () => {
   return (
     <FooterStyles>
       <div className="footer">
-        <Link to="https://www.nyon.ch/">
-          {' '}
-          <img
-            className="footer-logo"
-            src={logoNyon}
-            alt="Ville de Nyon"
-            width="200"
-            height="200"
-          />
-        </Link>
 
-        {/*<SocialLinks styleClass="footer-icons" />*/}
+          <StaticImage
+              src='../../static/documents/logo-ville-nyon.svg'
+              layout="constrained"
+              width={200}
+              height={200}
+              alt="Ville de Nyon"
+              className="partner-img"
+              placeholder="blurred"
+          />
+
         <div className="footer-links">
          <div>
-            <Link className="footer-link" to="https://www.urunana.com/">
-              Urunana
+            <Link className="footer-link" to="https://www.nyon.ch/">
+                Ville de Nyon
             </Link>
           </div>
 

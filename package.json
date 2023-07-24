@@ -1,6 +1,6 @@
 {
-  "name": "revista-gatsby-starter",
-  "description": "Open-source Gatsby blog template",
+  "name": "urunana-event-starter",
+  "description": "urunana events site",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -52,9 +52,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrisnmorrison/revista-gatsby-blog-magazine"
+    "url": "https://github.com/dmama/urunana-blog-magazine.git"
   },
   "bugs": {
-    "url": "https://github.com/chrisnmorrison/revista-gatsby-blog-magazine/issues"
+    "url": "https://github.com/dmama/urunana-blog-magazine/issues"
   }
 }
