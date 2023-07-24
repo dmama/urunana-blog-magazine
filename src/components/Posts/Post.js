@@ -31,13 +31,14 @@ const Post = ({ excerpt, frontmatter, fields }) => {
           </Link>
 
           <ul className="card-meta list-inline">
-            <li className="list-inline-item">
+   {/*         <li className="list-inline-item">
               <AiOutlineClockCircle />
               {Math.ceil(words / 275)} Min Read
-            </li>
+            </li>*/}
             <li className="list-inline-item">
               <GoCalendar /> {date}
             </li>
+
             <li className="list-inline-item">
               <ul className="card-meta-tag list-inline">
                 <li className="list-inline-item">

@@ -5,13 +5,14 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Title from './Title'
 import SidebarCard from './SidebarCard'
 import './sidebar-styles.scss'
+import LogoNyon from './../../../static/documents/logo-ville-nyon.svg'
 
 const partners = [
   {
-    name: 'Other site',
-    logo: '',
-    logoAlt: 'Logo for other site',
-    url: 'https://example.com',
+    name: 'Ville de Nyon',
+    logo: './../../../static/documents/logo-ville-nyon.svg',
+    logoAlt: 'Bienvenue a la ville de Nyon',
+    url: 'https://www.nyon.ch/',
   },
   //
   // {
@@ -26,15 +27,16 @@ const Recent = () => {
   return (
     <SidebarCard>
       <Wrapper>
-        <Title title="Our Partners" />
-        <p>Building an open internet together.</p>
+        <Title title="Nos partenaires" />
+        <p>AVEC NOS REMERCIEMENTS.</p>
         {partners.map(partner => {
           return (
             <div key={partner.name} className="partner">
               <StaticImage
-                src="../../assets/logo.png"
+                 src="./../../../static/documents/logo-ville-nyon.svg"
+                //src={partner.logo}
                 layout="constrained"
-                width={35}
+                width={50}
                 alt="author"
                 className="partner-img"
                 placeholder="blurred"

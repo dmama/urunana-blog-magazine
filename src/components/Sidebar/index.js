@@ -10,7 +10,7 @@ const Sidebar = () => {
   return (
     <div className="col-xl-3 col-12">
       <SidebarStyles>
-        <About />
+        {/*<About />*/}
         <Partners />
         <SidebarCategories />
         {/* <SidebarImage/> */}

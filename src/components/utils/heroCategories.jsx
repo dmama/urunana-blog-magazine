@@ -3,11 +3,11 @@
 // There may be more categories, which will all be listed on the All Categories page
 
 export const categories = [
-  { category: 'Art', color: '#ffb8b0' },
-  { category: 'Programme', color: '#fdffba' },
-  { category: 'Menu du repas', color: '#b7ffff' },
-  { category: 'Bar', color: '#ffd6c5' },
-   { category: 'Mode Paiement', color: '#ffffca' },
+  //{ category: 'Art', color: '#ffb8b0' },
+  { category: 'Programme', color: '#ffb8b0' },
+  { category: 'Menu', color: '#ceebff' },
+  { category: 'Bar', color: '#c4ffd4' },
+  // { category: 'Mode Paiement', color: '#ffffca' },
   // { category: 'Philosophy', color: '#ffcdf8' },
   // { category: 'Psychology', color: '#ceebff' },
   // { category: 'Science', color: '#ffc7d6' },
