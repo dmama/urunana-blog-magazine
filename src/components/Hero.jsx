@@ -143,7 +143,8 @@ export const HeroStyles = styled.header`
     position: absolute;
     content: '';
     //background-color: #ace7ff;
-    background-color: rgba(176, 73, 111, 0.59);
+    //background-color: rgba(100, 47, 66, 0.59);
+    background-color: rgba(100, 42, 39, 1);
     width: 100%;
     height: 15px;
     left: 0;
@@ -167,7 +168,7 @@ export const HeroStyles = styled.header`
   }
 
   .category-text-color {
-    color: var(--grey-6);
+    color: #ffffff;;
   }
 
   .hero-category {

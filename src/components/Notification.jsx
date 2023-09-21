@@ -23,11 +23,7 @@ export const NotificationStyles = styled.div`
     height: 50px;
     line-height: 50px;
     width: 100%;
-    background: linear-gradient(
-      90deg,
-      var(--primary-5) 0%,
-      var(--primary-6) 100%
-    );
+    background-color: rgba(100, 42, 39, 1);
     text-align: center;
     color: #ffffff;
     font-family: sans-serif;

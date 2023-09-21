@@ -4,8 +4,8 @@
 
 export const categories = [
   //{ category: 'Art', color: '#ffb8b0' },
-  { category: 'Programme', color: '#ffb8b0' },
-  { category: 'Repas', color: '#ceebff' },
+  { category: 'Programme', color: '#ce4e0c' },
+  { category: 'Repas', color: '#1f4e78' },
   //{ category: 'Bar', color: '#c4ffd4' },
   // { category: 'Mode Paiement', color: '#ffffca' },
   // { category: 'Philosophy', color: '#ffcdf8' },

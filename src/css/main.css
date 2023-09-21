@@ -71,7 +71,7 @@ Custom Global Styles
 }
 
 .category-text-color {
-  color: var(--black);
+  color: #ffffff;;
 }
 
 /*
@@ -94,7 +94,7 @@ Variables
   --grey-10: hsl(0, 0%, 18%);
   --grey-8: hsl(0, 0%, 25%);
   --grey-7: hsl(0, 0%, 35%);
-  --grey-6: hsl(0, 0%, 33%);
+  --grey-6: hsl(0, 0%, 100%);
   /* grey used for paragraphs */
   --grey-5: hsl(0, 0%, 44%);
   --grey-3: hsl(0, 0%, 85%);
