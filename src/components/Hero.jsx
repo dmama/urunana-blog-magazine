@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import slugify from 'slugify'
 import { categories } from './utils/heroCategories'
+import {StaticImage} from "gatsby-plugin-image";
 
 // export const query = graphql`
 //   {
@@ -33,8 +34,20 @@ const Hero = () => {
             </h1>
             <p>Danses et tambours du Rwanda, Entrée Frs.30-, Repas Frs. 25-</p>
             <p>Plus de 60 artistes enfants et adultes, chanteurs danseurs et tambourinaires en costumes</p>
+            <p>Plusieurs objets d'art seront disponibles à la vente, vos dons vont au maintien des prestations Urunana</p>
           </div>
           <div className="col-lg-5 col-12">
+
+            <StaticImage
+                src='../../static/documents/fyer.svg'
+                layout="constrained"
+                width={700}
+                height={500}
+                alt="Ville de Nyon"
+                className="partner-img"
+                placeholder="blurred"
+            />
+
             <div className="hero-categories">
               {categories.map((category, index, arr) => {
                 //check if last element. If it is, custom link for "All Categories"
